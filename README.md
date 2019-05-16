@@ -10,6 +10,12 @@ This is a command line program for a simple vending machine.
 - There should be a way of reloading either products or change at a later point
 - The machine should keep track of the products and change that it contains
 
+## How to set it up
+
+```
+git clone https://github.com/estherleongym/vending-machine.git
+```
+
 ## How to run it
 
 ```
@@ -18,22 +24,31 @@ irb
 require './lib/vending_machine.rb'
 vending_machine = VendingMachine.new
 vending_machine.run
+
 ```
 
 ## Commands
 
 - Restocking products
 
-```vending_machine.restock_products```
+```
+vending_machine.restock_products
+```
 
 - Restocking coins
 
-```vending_machine.restock_coins```
+```
+vending_machine.restock_coins
+```
 
 - View inventory
 
-```vending_machine.products```
+```
+vending_machine.products
+```
 
 - View change available
 
-```vending_machine.coin_stock```
+```
+vending_machine.coin_stock
+```
