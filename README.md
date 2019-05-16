@@ -12,11 +12,13 @@ This is a command line program for a simple vending machine.
 
 ## How to run it
 
-```cd vending-machine
+```
+cd vending-machine
 irb
-require './lib/vendig_machine.rb'
+require './lib/vending_machine.rb'
 vending_machine = VendingMachine.new
-vending_machine.run```
+vending_machine.run
+```
 
 ## Commands
 
